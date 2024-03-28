@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  height: 80px;
+  width: 1348px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 4px 8px 0px rgb(197, 197, 197);
+  padding-bottom: 30px;
+}
+
+.ham{
+  display: none;
+}
+
+.logo {
+  display: flex;
+  cursor: pointer;
+}
+
+.logo > img {
+  margin-left: 30px;
+}
+
+.logo1 {
+  display: flex;
+  margin-left: 660px;
+  margin-top: 20px;
+}
+
+.logo > p {
+  color: rgb(65, 64, 64);
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.logo1 > p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.logo1 > p > a {
+  color: rgb(65, 64, 64);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo1 > img {
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.navbar1 {
+  height: 60px;
+  background-color: #ff7700;
+}
+
+.navbar1 > p {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding-left: 10px;
+}
+
+.navbar1 > p > a {
+  color: white;
+}
+
+.section1 {
+  display: flex;
+  height: 450px;
+}
+
+.con {
+  margin-top: 25px;
+  height: 400px;
+  width: 565px;
+  margin-left: 70px;
+}
+
+.con1 {
+  margin: 0px 0px 0px 60px;
+  height: 400px;
+  width: 520px;
+}
+
+.con h3 {
+  margin-right: 90px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 9vh;
+}
+
+.con p {
+  margin: 40px -10px 0px 0px;
+  font-size: 20px;
+  line-height: 5vh;
+}
+
+.arrow {
+  background-color: #4585f4;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-top: -65px;
+  margin-left: -20px;
+  position: absolute;
+}
+
+i {
+  color: white;
+  font-size: 38px;
+  margin: 8px 0px 0px 8px;
+}
+
+#section2 {
+  height: 1000px;
+  background-color: #4585f4;
+}
+
+#section2 > p {
+  color: white;
+  font-size: 25px;
+  margin: 20px 0px 0px 30px;
+  padding-top: 10px;
+}
+
+.cards,
+.cards1 {
+  display: flex;
+  margin-top: 18px;
+}
+
+.card1 {
+  height: 430px;
+  background-color: white;
+  width: 300px;
+  margin-left: 28px;
+  box-shadow: 2px 0.5px 2px 1px rgb(79, 77, 77);
+}
+.card2 {
+  height: 430px;
+  background-color: white;
+  width: 320px;
+  margin-left: 20px;
+  box-shadow: 2px 0.5px 2px 1px rgb(79, 77, 77);
+}
+
+.card1 > img,
+h3,
+p {
+  margin-left: 20px;
+}
+.card1 > img {
+  margin-top: 10px;
+}
+
+.card1 > h3 {
+  margin-right: 40px;
+  font-size: 20px;
+  line-height: 5vh;
+  font-weight: 800;
+}
+
+.card1 > i {
+  color: #ff7700;
+  margin-left: 210px;
+  margin-top: -20px;
+}
+
+.card2 > i {
+  color: #ff7700;
+  margin-left: 245px;
+  margin-top: -20px;
+}
+
+.section3 {
+  padding-top: 25px;
+  height: 790px;
+  background-color: rgb(220, 215, 215);
+}
+
+.section3 > h5 {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.instructor1 {
+  margin-left: 30px;
+  height: 200px;
+  background-color: rgb(235, 234, 234);
+  width: 1280px;
+  display: flex;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.instructor2,
+.instructor3 {
+  margin: 30px 0 0 30px;
+  width: 1280px;
+  height: 200px;
+  background-color: rgb(235, 234, 234);
+  display: flex;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.instructor1 hr,
+.instructor2 hr,
+.instructor3 hr {
+  width: 1080px;
+  margin-top: 15px;
+}
+
+.instructor1 p,
+.instructor2 p,
+.instructor3 p {
+  padding-top: 15px;
+  margin-right: 20px;
+}
+
+/* SECTION 4 */
+.section4 {
+  padding-top: 25px;
+  height: 400px;
+  background-color: rgb(251, 251, 251);
+}
+
+.section4 > h4 {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.section4 > p {
+  margin-left: 40px;
+  padding-top: 15px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.minis{
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin: 0 30px 0 30px;
+}
+
+.mini_cards{
+  height: 180px;
+  background-color: rgb(235, 234, 234);
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+.mini_cards img{
+  margin: 30px 0 0 120px;
+}
+.mini_cards p{
+  text-align: center;
+  font-weight: 500;
+}
+
+/* SECTION5 */
+.section5 {
+  padding-top: 25px;
+  height: 350px;
+  background-color: rgb(235, 234, 234);
+}
+.section5 p{
+  margin: 10px 0 20px 40px;
+  font-size: 20px;
+}
+
+.mini{
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin: 0 30px 0 10px;
+}
+
+.mini_card img{
+  margin: 30px 0 0 120px;
+}
+
+.mini_card p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+/* FOOTER */
+footer {
+  height: 60px;
+  background-color: white;
+}
+
+footer ul{
+  margin-left: 720px;
+  display: flex;
+}
+
+footer ul li{
+  padding-top: 10px;
+ list-style: none;
+
+}
+footer ul li a{
+color: grey;
+font-weight: 500;
+text-decoration: none;
+margin-left: 20px;
+}
+
+@media only screen and (max-width:480px){
+  .navbar {
+    display: flex;
+    height: 70px;
+    width: 387px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+  }
+
+
+  .ham{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px ;
+  }
+  .ham>i{
+    color: black;
+    font-size: 30px;
+    font-weight: 25px;
+    cursor: pointer;
+  }
+
+  .logo > img {
+    margin-left: 70px;
+  }
+  
+.logo1, .con1, .instructor1>img,  .instructor2>img,
+  .instructor3>img, footer {
+    display: none;
+  }
+  
+  .logo > p {
+    color: rgb(65, 64, 64);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  .navbar1 {
+    height: 170px;
+    margin: 0px 0 10px 0px;
+    background-color: #ff7700;
+  }
+
+  .navbar1 > p {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 10px 0 0;
+  
+  }
+  
+  .navbar1 > p > a {
+    color: white;
+  }
+
+  .con {
+    margin-top: 25px;
+    height: 350px;
+    margin-left: 5px;
+  }
+
+  .con h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 4vh;
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+  
+  .con p {
+    margin: 40px 0px 0px 18px;
+    font-size: 20px;
+    line-height: 5vh;
+  }
+
+  #section2 > p {
+    color: white;
+    font-size: 25px;
+    margin: 20px 0px 0px 10px;
+    padding-top: 10px;
+  }
+  #section2{
+    height: 2700px;
+    border: 1px solid black;
+  }
+
+  .cards{
+    display: block;
+    margin-top: 18px;
+  }
+
+.cards1 {
+  display: block;
+  margin-top: 18px;
+}
+
+.card1, .card2 {
+  height: 400px;
+  background-color: white;
+  width: 350px;
+  margin: 20px 0 0 20px;
+  box-shadow: 2px 0.5px 2px 1px rgb(79, 77, 77);
+}
+
+.card1 > i {
+  color: #ff7700;
+  margin-left: 260px;
+  margin-top: -20px;
+}
+
+.card2 > i {
+  color: #ff7700;
+  margin-left: 245px;
+  margin-top: -70px;
+}
+
+
+.section3 {
+  height: 1390px;
+  background-color: rgb(220, 215, 215);
+}
+.section3 > h5 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.instructor2,
+.instructor3,.instructor1{
+  margin: 30px 0 0 10px;
+  width: 365px;
+  height: 430px;
+  background-color: rgb(235, 234, 234);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.instructor2{
+  margin: 30px 0 0 10px;
+  width: 365px;
+  height: 330px;
+  background-color: rgb(235, 234, 234);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.instructor1 hr,
+.instructor2 hr,
+.instructor3 hr {
+  width: 365px;
+  margin-top: 15px;
+}
+
+
+.section4 {
+  padding-top: 25px;
+  height: 1000px;
+  background-color: rgb(251, 251, 251);
+}
+.section4 > h4 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.section4 > p {
+  margin-left: 20px;
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+.minis{
+  padding-top: 25px;
+  display: block;
+  margin: 0 30px 0 30px;
+}
+
+.mini_cards{
+  height: 140px;
+  margin-bottom: 30px;
+  background-color: rgb(235, 234, 234);
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mini_cards p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.section5 {
+  padding-top: 25px;
+  height: 660px;
+  background-color: rgb(235, 234, 234);
+}
+
+.mini{
+  padding-top: 25px;
+  display: block;
+  margin: 0 30px 0 10px;
+}
+
+.mini_card{
+  display: flex;
+}
+
+.mini_card img{
+  margin: 30px 0 0 40px;
+}
+}
+
+
